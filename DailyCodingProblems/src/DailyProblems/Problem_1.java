@@ -67,20 +67,21 @@ public class Problem_1 {
               }
               else{
                   System.out.println("\nNo two numbers  from the list add up to " + k +"\n");
-                  return false;
               }
             }
         }
 
-//        for (int n : array){
+        return false;
+
+
+        //        for (int n : array){
 //            if(array.contains(k-n)){
 //                System.out.println("The two numbers  " + n + " & " + (k-n) +  " from the list add up to " + k );
 //                return true;
 //            }
 //        }
 
-        return false;
-    }
 
+    }
 
 }
