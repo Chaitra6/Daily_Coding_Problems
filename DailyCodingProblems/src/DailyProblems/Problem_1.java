@@ -35,21 +35,48 @@ public class Problem_1 {
 
         int k = sc.nextInt();
 
-        boolean result = addUpToK(array, k);
+        boolean result = addUpToK(array, k, size);
+
         System.out.println(result);
 
 
 
     }
 
-    private static boolean addUpToK(ArrayList<Integer> array, int k) {
+    private static boolean addUpToK(ArrayList<Integer> array, int k, int size) {
 
-        for (int n : array){
-            if(array.contains(k-n)){
-                System.out.println("The two numbers  " + n + " & " + (k-n) +  " from the list add up to " + k );
-                return true;
+        for(int i = 0 ; i<size ; i++){
+
+            // gets the first element in the array
+            int curr_Value = array.get(0);
+            int sum = 0;
+
+
+            // removes the first element in the array
+            array.remove(0);
+
+            size = array.size();
+
+
+            for (int n : array){
+              sum = curr_Value + n ;
+
+              if(sum == k){
+                  System.out.println("\nThe two numbers  " + n + " & " + (k-n) +  " from the list add up to " + k + "\n");
+                  return true;
+              }
+              else{
+                  System.out.println("\nNo two numbers  from the list add up to " + k +"\n");
+              }
             }
         }
+
+//        for (int n : array){
+//            if(array.contains(k-n)){
+//                System.out.println("The two numbers  " + n + " & " + (k-n) +  " from the list add up to " + k );
+//                return true;
+//            }
+//        }
 
         return false;
     }
