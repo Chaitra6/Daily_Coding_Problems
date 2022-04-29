@@ -67,6 +67,7 @@ public class Problem_1 {
               }
               else{
                   System.out.println("\nNo two numbers  from the list add up to " + k +"\n");
+                  return false;
               }
             }
         }
