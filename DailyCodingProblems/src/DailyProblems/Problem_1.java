@@ -55,10 +55,13 @@ public class Problem_1 {
             // removes the first element in the array
             array.remove(0);
 
+
+            //Size Update
             size = array.size();
 
 
             for (int n : array){
+
               sum = curr_Value + n ;
 
               if(sum == k){
