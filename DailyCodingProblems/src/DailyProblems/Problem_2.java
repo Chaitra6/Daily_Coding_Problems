@@ -36,7 +36,7 @@ public class Problem_2 {
     private static int[] arrayProduct(int[] array, int size) {
 
         if (size == 1) {
-            System.out.println("Array has only one element...\nArray Product cannot be formed");
+//            System.out.println("Array has only one element...\nArray Product cannot be formed");
             return array;
         }
 
