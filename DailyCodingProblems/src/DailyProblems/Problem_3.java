@@ -70,7 +70,6 @@ public class Problem_3 {
 //
 //        }
 
-
         for(int i =0; i< arrayNew.length; i++){
             int x = Math.abs(arrayNew[i]);
 
