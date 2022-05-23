@@ -49,6 +49,10 @@ public class prob_1 {
                     int current_sum = nums[i] + nums[pointer_1] + nums[pointer_2] ;
 
 
+                    if(current_sum == target){
+                        return current_sum;
+                    }
+
                     if(current_sum > target){
                         // We have sorted the array, so the last element has higher value
                         // So we are setting pointer_2 to the next lowest value
