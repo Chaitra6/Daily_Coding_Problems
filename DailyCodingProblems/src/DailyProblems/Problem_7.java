@@ -23,13 +23,18 @@ public class Problem_7 {
         int data;
         Node next;
 
+        public Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+
     }
 
     public static Node insert(Node root, int item){
-        Node new_Node = new Node();
-        Node temp;
-        new_Node.data =item;
+        Node new_Node = new Node(item);
         new_Node.next = null;
+
+        Node temp;
 
         if(root==null)
             root=new_Node;
