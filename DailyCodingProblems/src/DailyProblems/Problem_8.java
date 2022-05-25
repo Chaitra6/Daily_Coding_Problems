@@ -5,7 +5,11 @@ import java.util.Scanner;
 
 public class Problem_8 {
 
-    /*Given a 1-indexed array of integers numbers that is already
+
+    /*
+    Question:
+
+    Given a 1-indexed array of integers numbers that is already
     sorted in non-decreasing order, find two numbers such that they
     add up to a specific target number.
 
