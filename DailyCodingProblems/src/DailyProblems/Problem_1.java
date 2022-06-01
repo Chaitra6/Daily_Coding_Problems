@@ -5,13 +5,15 @@ import java.util.Scanner;
 
 public class Problem_1 {
 
-    //  Question:
+    /*Question:
 
-//    Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
-//
-//    For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
-//
-//    Bonus: Can you do this in one pass?
+    Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+
+    For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+
+    Bonus: Can you do this in one pass?
+
+     */
 
 
     public static void main(String[] args){
@@ -77,12 +79,6 @@ public class Problem_1 {
         return false;
 
 
-        //        for (int n : array){
-//            if(array.contains(k-n)){
-//                System.out.println("The two numbers  " + n + " & " + (k-n) +  " from the list add up to " + k );
-//                return true;
-//            }
-//        }
 
 
     }
