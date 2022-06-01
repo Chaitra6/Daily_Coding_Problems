@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class prob_2 {
 
+/*
+    Question:
+    Given a signed 32-bit integer x, return x
+    with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range return 0
+    INT_MAX is equal 2147483647. INT_MIN is equal  -2147483648.
+                     1000000067
 
-//    Question:
-//    Given a signed 32-bit integer x, return x
-//    with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range return 0
-//    INT_MAX is equal 2147483647. INT_MIN is equal  -2147483648.
-//                     1000000067
+ */
 
 
     public static int reverse(int num) {
